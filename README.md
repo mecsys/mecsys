@@ -1,2 +1,2 @@
-# mecsys
-Repositorio para Paginas Web
+# imersaoCSS
+Repositório para planejamento das aulas
