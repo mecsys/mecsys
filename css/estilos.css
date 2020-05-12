@@ -13,6 +13,7 @@ body {
 
 header {
   height: 100vh;
+  display: flex;
 }
 
 @media (min-width: 400px) {
