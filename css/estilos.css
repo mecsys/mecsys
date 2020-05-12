@@ -11,6 +11,10 @@ body {
   height: 100vh;
 }
 
+header {
+  height: 100vh;
+}
+
 @media (min-width: 400px) {
   body {
     font-size: 18px;
