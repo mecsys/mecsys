@@ -1,12 +1,15 @@
+/* style.css */
 
-// style.css
+.cor-especial {
+  color: darkred;
+}
 
 .fonte-titulo {
   font-family: 'Share Tech', sans-serif;
 }
 
 .imagen-background {
-  background-image: url("img/imagem.jpg");
+  //background-image: url("img/imagem.jpg");
 }
 
 .imagen-carrousel {
@@ -16,5 +19,5 @@
 }
 
 .imagen-portifolio {
-  width: 100vh;
+  //width: 100vh;
 }
