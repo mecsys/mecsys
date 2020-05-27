@@ -1,6 +1,16 @@
 
+// style.css
+
+.fonte-titulo {
+  font-family: 'Share Tech', sans-serif;
+}
+
+.imagen-background {
+  background-image: url("img/imagem.jpg");
+}
+
 .imagen-carrousel {
   object-fit: cover;
-  object-position: 0 80%;
+  object-position: 0 50%;
   height: 400px;
 }
