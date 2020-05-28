@@ -13,16 +13,16 @@
 
 		<header>
 
-			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-			  <a class="navbar-brand" href="https://mecsys.github.io">IM</a>
+			<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+			  <a class="navbar-brand text-light fonte-titulo" href="https://mecsys.github.io">IM</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
 			  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 			    <ul class="navbar-nav">
-			      <li><a class="nav-item nav-link active" href="#sobre">Sobre <span class="sr-only">(current)</span></a></li>
-			      <li><a class="nav-item nav-link" href="#portifolio">Portifólio</a></li>
-			      <li><a class="nav-item nav-link" data-toggle="modal" data-target="#modal-contato" href="#">Contato</a></li>
+			      <li><a class="nav-item nav-link text-light active" href="#sobre">Sobre <span class="sr-only">(current)</span></a></li>
+			      <li><a class="nav-item nav-link text-light" href="#portifolio">Portifólio</a></li>
+			      <li><a class="nav-item nav-link text-light" data-toggle="modal" data-target="#modal-contato" href="#">Contato</a></li>
 			    </ul>
 			  </div>
 			</nav>
@@ -98,30 +98,34 @@
 		<!-- Modal -->
 		<div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title" id="exampleModalLabel">Contato</h5>
+		    <dialog class="modal-content">
+		      <header class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
 		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 		          <span aria-hidden="true">&times;</span>
 		        </button>
-		      </div>
-		      <div class="modal-body">
+		      </header>
+		      <main class="modal-body">
 		        <form>
 				  <div class="form-group">
-				    <label for="exampleFormControlInput1">Email address</label>
-				    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+				    <label for="contato-nome">Nome completo</label>
+				    <input type="text" class="form-control" id="contato-nome" placeholder="Insira seu nome completo">
 				  </div>
 				  <div class="form-group">
-				    <label for="exampleFormControlTextarea1">Mensagem</label>
-				    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				    <label for="contato-email">Endereço de e-mail</label>
+				    <input type="email" class="form-control" id="contato-email" placeholder="nome@exemplo.com">
+				  </div>
+				  <div class="form-group">
+				    <label for="contato-mensagem">Mensagem</label>
+				    <textarea class="form-control" id="contato-mensagem" rows="3" placeholder="Insira aqui sua mensagem"></textarea>
 				  </div>
 				</form>
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		        <button type="button" class="btn btn-primary">Save changes</button>
-		      </div>
-		    </div>
+		      </main>
+		      <footer class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+		        <button type="button" class="btn btn-primary">Enviar</button>
+		      </footer>
+		    </dialog>
 		  </div>
 		</div>
 
