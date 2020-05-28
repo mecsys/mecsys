@@ -22,7 +22,7 @@
 			    <ul class="navbar-nav">
 			      <li><a class="nav-item nav-link active" href="https://mecsys.github.io/sobre.html">Sobre <span class="sr-only">(current)</span></a></li>
 			      <li><a class="nav-item nav-link" href="https://mecsys.github.io/portifolio.html">Portifólio</a></li>
-			      <li><a class="nav-item nav-link" href="https://mecsys.github.io/contato.html">Contato</a></li>
+			      <li><a class="nav-item nav-link" data-toggle="modal" data-target="#modal-contato" href="#">Contato</a></li>
 			    </ul>
 			  </div>
 			</nav>
@@ -77,7 +77,44 @@
 				<p class="text-center text-light pt-5">DevOps 	Engineer, Computer Network and Software Engineer Specialist </p>				
 			</section>
 
+			<section id="sobre">
+				<h2 class="fonte-titulo text-light">Sobre</h2>
+				<figure>
+					<img class="imagen-sobre" src="..." alt="...">
+					<figcaption class="text-light">Informações pessoais</figcaption>
+				</figure>
+			</section>
+
+			<section id="portifolio">
+				<h2 class="fonte-titulo text-light">Portfólio</h2>
+				<figure>
+					<img class="imagen-portifolio" src="..." alt="...">
+					<figcaption class="text-light">Projetos pessoais</figcaption>
+				</figure>
+			</section>
+
 		</main>
+
+		<!-- Modal -->
+		<div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Contato</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        Entre em contato!
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save changes</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 
 		<footer>
 			<p class="text-secondary text-center">Isaac Mecchi &copy</p>
