@@ -1,6 +1,6 @@
 /* style.css */
 
-.cor-especial {
+.descricao_carrousel {
   color: darkred;
 }
 
@@ -12,10 +12,4 @@
   object-fit: cover;
   object-position: 0 50%;
   height: 400px;
-}
-
-.imagen-portifolio {
-  /*
-  width: 100vh;
-  */
 }
